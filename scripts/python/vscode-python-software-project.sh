@@ -778,6 +778,12 @@ uv sync --dev
 uv run uvicorn $PACKAGE_NAME.main:app --reload --host 0.0.0.0 --port 8000
 ~~~
 
+Sur onyxia :
+
+~~~bash
+uv run uvicorn $PACKAGE_NAME.main:app --reload --host 0.0.0.0 --port 8000 --root-path /proxy/8000
+~~~
+
 ## Run tests
 
 ~~~bash
